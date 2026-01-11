@@ -38,8 +38,9 @@ finally:
 
 # COMMAND ----------
 
-spark_df = spark.createDataFrame(df)
-display(spark_df)
+spark_df1 = spark.createDataFrame(df)
+display(spark_df1)
+
 
 # COMMAND ----------
 
