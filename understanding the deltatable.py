@@ -11,7 +11,7 @@ df_csv.write.format("delta").mode("overwrite").save("/Volumes/dev/club_db/data/E
 
 # COMMAND ----------
 
-#reading the delta table
+##reading the delta table
 df_delta=spark.read.format("delta").load("/Volumes/dev/club_db/data/Employees_delta")
 df_delta.printSchema()
 
